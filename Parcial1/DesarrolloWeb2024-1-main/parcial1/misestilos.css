@@ -23,3 +23,28 @@ span ul li {
     font-style: oblique;
     font-weight: 600;
 }
+
+#button {
+    background-color: darksalmon;
+    border: 2px dotted darkred;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 5px;
+}
+
+.texto {
+    color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+.link {
+    background-color: lightpink;
+    color: white;
+    padding: 5px;
+}
+
+a:hover {
+    color: orange;
+}
