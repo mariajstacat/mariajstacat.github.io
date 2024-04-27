@@ -1,4 +1,4 @@
-# proyecto pagina web
+# proyecto página web
 
 [carlsjr.] [https://carlsjr.com](https://carlsjr.com.mx/)
 
