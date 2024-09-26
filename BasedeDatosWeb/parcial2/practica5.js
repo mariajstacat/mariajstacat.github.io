@@ -1,0 +1,22 @@
+console.log("Shadow the Hedgehog")
+
+var cambio = false;
+
+function cambia_color(){
+    if(cambio){
+        document.getElementById("cuadro").style.backgroundColor = 'white';
+        cambio = false;
+    } else {
+        document.getElementById("cuadro").style.backgroundColor = 'red';
+        cambio = true;
+    }
+}
+
+
+function ocultar(){
+    document.getElementById("titulo").style.display = 'none';   
+}
+
+function mostrar(){
+    document.getElementById("titulo").style.display = '';
+}
