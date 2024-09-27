@@ -163,10 +163,11 @@
         echo "<img src='WRONG_ANSWER.gif' size='200px'><hr><br><br><br>";
 
     }
+
     echo "<h2> BONUSSSS ¿Quien es mi fav??????? </h2>";
-    echo "<h3>Repuesta seleccionada = ".implode(", ", $fav)." ,,,,,trick answer, they all r </h3>";
+    echo "<h3>Repuesta = ,,,,,trick answer, they all r </h3>";
     $fav_respuestas_correctas = 0;
-    if($fav >= 1){
+    if(($fav) >= 1){
         $fav_respuestas_correctas ++;
         echo "<p>WOOOAAAAAAAAAAAAAAAAAAS!!!!</p>";
         echo "<img src=THEYALLR.gif><hr><br>";
